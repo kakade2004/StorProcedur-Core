@@ -2,14 +2,14 @@
 
 namespace StorProcedur_Core.Controllers
 {
-    public class DepartmentController : Controller
+    public class MasterController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Save()
+        public IActionResult show()
         {
             return View();
         }
